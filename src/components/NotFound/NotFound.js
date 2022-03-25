@@ -1,4 +1,3 @@
-import Navbar from '../Navbar/headerperso'
 import ThemeContext from '../../context/ThemeContext'
 import Footerperso from '../Footer/footerperso'
 import './NotFound.css'
