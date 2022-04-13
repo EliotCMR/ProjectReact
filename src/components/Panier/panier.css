@@ -1,0 +1,41 @@
+.panier-home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+}
+
+.panier-container-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.panier-image {
+    width: 100px;
+    height: 100px;
+}
+
+.panier-heading-light {
+    color: #000000;
+}
+
+.panier-container-dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.panier-heading-dark {
+    color: white;
+}

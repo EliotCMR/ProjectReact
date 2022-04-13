@@ -17,12 +17,12 @@ const Navbar = () => (
               <ul className="middle-items">
                 <li className="list-item">
                   <Link to="/" className="link-light">
-                    Home
+                    Panier
                   </Link>
                 </li>
                 <li className="list-item">
                   <Link to="/about" className="link-light">
-                    About
+                    CV
                   </Link>
                 </li>
               </ul>
@@ -41,16 +41,15 @@ const Navbar = () => (
             </div>
           ) : (
             <div className="nav-bar-container-dark">
-              {/* <img src={image} alt="sid" /> */}
               <ul className="middle-items">
                 <li className="list-item">
                   <Link to="/" className="link-dark">
-                    Home
+                    Panier
                   </Link>
                 </li>
                 <li className="list-item">
                   <Link to="/about" className="link-dark">
-                    About
+                    CV
                   </Link>
                 </li>
               </ul>

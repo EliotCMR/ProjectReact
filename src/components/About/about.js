@@ -1,11 +1,12 @@
 import Navbar from '../Navbar/headerperso'
 import ThemeContext from '../../context/ThemeContext'
 import './about.css'
+import React from 'react'
 
 const About = () => (
   <ThemeContext.Consumer>
     {value => {
-      const {isDarkTheme} = value
+      const { isDarkTheme } = value
       return (
         <>
           {!isDarkTheme ? (
@@ -17,7 +18,8 @@ const About = () => (
                   className="about-image"
                   alt="about"
                 />
-                <h1 className="about-heading-light">About</h1>
+                <div className="about-heading-light"></div>
+                <h1>CV</h1>
               </div>
             </div>
           ) : (
@@ -29,7 +31,7 @@ const About = () => (
                   className="about-image"
                   alt="about"
                 />
-                <h1 className="about-heading-dark">About</h1>
+                <h1 className="about-heading-dark">CV</h1>
               </div>
             </div>
           )}
@@ -39,4 +41,6 @@ const About = () => (
   </ThemeContext.Consumer>
 )
 
-export default About
+
+
+export default About/* (MyComponent) */
